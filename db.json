@@ -1,0 +1,9 @@
+{
+  "slider": [
+    { "id": 1, "alt": "first" },
+    { "id": 2, "alt": "second" },
+    { "id": 3, "alt": "first" },
+    { "id": 4, "alt": "third" },
+    { "id": 5, "alt": "first" }
+  ]
+}

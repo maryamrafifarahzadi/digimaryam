@@ -1,0 +1,17 @@
+{
+  "name": "reeed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "json-server --watch  db.json --port 3004 "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "json-server": "^1.0.0-alpha.20",
+    "swiper": "^11.0.5"
+  }
+}

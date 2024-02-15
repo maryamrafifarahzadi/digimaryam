@@ -1,0 +1,46 @@
+.story {
+  width: 100%;
+  height: 180px;
+  /* background-color: brown; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.story .center {
+  width: 80%;
+  height: 180px;
+  /* background-color: rgb(12, 12, 12); */
+}
+.story .center .swiper-slide .asli {
+  /* background-color: rgb(153, 35, 35); */
+  width: 100%;
+  height: 100%;
+}
+.story .center .swiper-slide .asli .up {
+  width: 100%;
+  height: 70%;
+  /* background-color: blueviolet; */
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.story .center .swiper-slide .asli .up img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: unset;
+  outline: 3px solid crimson;
+  outline-offset: 3px;
+}
+.story .center .swiper-slide .asli .down {
+  width: 100%;
+  height: 30%;
+  /* background-color: blue; */
+}
+.story .center .swiper-slide .asli .down h5 {
+  font-size: 16px;
+  line-height: 10px;
+  color: black;
+  opacity: 0.8;
+}

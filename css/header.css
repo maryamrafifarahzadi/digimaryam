@@ -1,0 +1,113 @@
+header {
+  width: 100%;
+  height: 180px;
+}
+header .banner {
+  width: 100%;
+  height: 60px;
+}
+header .banner img {
+  width: 100%;
+  height: 60px;
+  object-fit: cover;
+}
+header .center {
+  width: 100%;
+  height: 110px;
+}
+header .center .top {
+  width: inherit;
+  height: 50px;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+header .center .top .logo {
+  width: 10%;
+  height: inherit;
+  align-items: center;
+
+  padding-right: 15px;
+  /* background-color: blue; */
+}
+header .center .top .logo svg {
+  width: 100%;
+  height: 100%;
+}
+header .center .top .search {
+  width: 70%;
+  height: inherit;
+  /* background-color: yellow; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+header .center .top .search input[type="text"] {
+  width: 600px;
+  height: 30px;
+  border: unset;
+  background-color: lightgray;
+  border-radius: 7px;
+}
+header .center .top .search input[type="text"]::placeholder {
+  font-size: 16px;
+  padding-right: 30px;
+}
+
+header .center .top .login {
+  width: 20%;
+  height: 40px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  padding-left: 40px;
+
+
+}
+header .center .top .login a {
+  width: 140px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+  column-gap: 5px;
+  text-decoration: none;
+  color: black;
+  background-color: aliceblue;
+  border-radius: 7px;
+  font-weight: bold;
+  border: 1px solid lightgray;
+}
+header .center .top .login .basket {
+  all: unset;
+  padding-right: 9px;
+  font-weight: bold;
+}
+header .center .top .login .line {
+  width: 3px;
+  height: 30px;
+  color: grey;
+  display: inline-block;
+  padding-right: 3px;
+}
+header .menu {
+  width: 100%;
+  height: 40px;
+  background-color: greenyellow;
+  display: flex;
+  flex-flow: row wrap;
+}
+header .menu .right {
+  width: 70%;
+  height: 40px;
+  background-color: red;
+}
+header .menu .left {
+  width: 30%;
+  height: 40px;
+}

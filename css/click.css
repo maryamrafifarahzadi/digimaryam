@@ -1,0 +1,9 @@
+.click{
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    background-color: blue;
+    z-index: 3;
+}

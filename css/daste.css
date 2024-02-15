@@ -1,0 +1,59 @@
+.daste {
+  width: 100%;
+  height: 30px;
+  /* background-color: aquamarine; */
+  & h2 {
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-family: yekan;
+  }
+}
+.box {
+  width: 100%;
+  height: 300px;
+  /* background-color: aquamarine; */
+  display: flex;
+  flex-flow: column;
+  .up {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+    column-gap: 50px;
+    .pic {
+      width: 95px;
+      height: 95px;
+      border-radius: 50%;
+      & img {
+        width: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    }
+  }
+  .down {
+    width: 100%;
+    height: 150px;
+    /* background-color: brown; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    .pic {
+      width: 95px;
+      height: 95px;
+      border-radius: 50%;
+      & img {
+        width: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    }
+  }
+}

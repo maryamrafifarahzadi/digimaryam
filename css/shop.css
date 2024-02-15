@@ -1,0 +1,91 @@
+.shop {
+  width: 100%;
+  height: 115px;
+  /* background-color: rgb(33, 207, 56); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+.shop .center {
+  width: 93%;
+  height: inherit;
+  background-color: rgb(228, 216, 216);
+  border-radius: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.center .right {
+  width: 40%;
+  height: inherit;
+  /* background-color: aqua; */
+}
+.center .right a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.center .right a .amazing {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+  /* background-color: aqua; */
+  padding-top: 30px;
+}
+.center .right .amazing div {
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: green;
+}
+.center .right .amazing div h3 {
+  color: whitesmoke;
+  font-family: yekan;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 30px;
+  padding-right: 20px;
+}
+.center .left {
+  width: 60%;
+  height: inherit;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+}
+.center .left div {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: whitesmoke;
+  position: relative;
+}
+.center .left div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.center .left .price {
+  width: 30px;
+  height: 20px;
+  border-radius: 20%;
+  position: absolute;
+  bottom: -5px;
+  right: -5px;
+  background-color: crimson;
+}
+.center .left .price h3{
+  font-size: 14px;
+  color: whitesmoke;
+  font-family: yekan;
+
+  padding-top: 2px;
+
+}
